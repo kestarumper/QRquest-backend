@@ -2,22 +2,13 @@
 
 DAS competitive application about collecting achievements in form of QR codes.
 
+# REST api
+## [Postman API Docs](https://documenter.getpostman.com/view/3023974/RWgnWzYt)
 
 ## Prerequisites
 * [Docker CE](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 * [Docker-Compose](https://docs.docker.com/compose/install/#install-compose)  
 (or `sudo apt-get install docker-compose` under Ubuntu)
-
-# Frontend Development
-
-## Development server
-
-Go to `/frontend` directory, install dependencies witn `npm i`.  
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 # Backend Development
 You can run once and nodeamon will restart node process on docker virtual machine on the fly upon detecting changes in `./backend/dist` path.   
@@ -49,6 +40,3 @@ docker-compose up
 ```
 docker-compose down
 ```
-
-# REST api
-## ACTUAL DOCS ARE AVAILABLE HERE: https://documenter.getpostman.com/view/3023974/RWgnWzYt
