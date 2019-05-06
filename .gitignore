@@ -1,0 +1,4 @@
+backend/node_modules
+data/*
+backend/dist/api
+backend/package-lock.json
